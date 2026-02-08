@@ -40,7 +40,7 @@ A **Retrieval-Augmented Generation (RAG)** application that allows users to chat
 * **Streamlit** (Frontend)
 * **FAISS** (Vector Database)
 * **HuggingFace** (Embeddings & LLM)
-
+    
 * **PDFPlumber** (Document Loading)
 
 ---
