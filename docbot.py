@@ -67,8 +67,7 @@ def get_qa_chain(vectorstore):
     """Create a RetrievalQA chain with the given vector store."""
     CUSTOM_PROMPT_TEMPLATE = """
         Use the pieces of information provided in the context to answer user's question.
-        If you dont know the answer, just say that you dont know, dont try to make up an answer. 
-        Dont provide anything out of the given context
+        If you dont know the answer,then search on your parameters and then answer.
 
         Context: {context}
         Question: {question}
